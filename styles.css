@@ -1,0 +1,71 @@
+/***** General Styles *****/
+:root {
+  font-size: 62.5%;
+
+  /*** Colors ***/
+  --bg-black: hsl(240, 8%, 8%);
+  --text-gray: hsl(0, 0%, 92%);
+  --text-gray-2: hsl(240, 1%, 75%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  color: var(--text-gray);
+  background-color: var(--bg-black);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/***** Header *****/
+
+/***** Memories *****/
+.memory-nav {
+  gap: 6.4rem;
+  padding: 6.4rem;
+}
+
+.memory {
+  gap: 1.6rem;
+}
+
+.memory small {
+  font-size: 1.2rem;
+  color: var(--text-gray-2);
+}
+
+.memory h2 {
+  font-size: 3.2rem;
+  line-height: 125%;
+  color: var(--text-gray);
+}
+
+.memory img {
+  height: 28rem;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+
+.memory p {
+  font-size: 1.8rem;
+  line-height: 160%;
+  color: var(--text-gray-2);
+}
